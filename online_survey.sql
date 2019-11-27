@@ -41,8 +41,8 @@ CREATE TABLE `demographic` (
 --
 
 INSERT INTO `demographic` (`username`, `name`, `gender`, `age`, `undergraduate`) VALUES
-('abdurrehman', 'Abdurrehman', 'male', '21-25', 'Senior'),
-('user2', 'Abdurrehman', 'male', '21-25', 'Senior');
+('apple', 'Apple', 'male', '21-25', 'Senior'),
+('user2', 'AppleOn', 'male', '21-25', 'Senior');
 
 -- --------------------------------------------------------
 
