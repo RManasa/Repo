@@ -9,7 +9,7 @@
     $_SESSION["page1Time"] =$arr[4]/1000;
     if (mysqli_query($conn, $query)) {
         $_SESSION["task1"] = "filled";
-        header("Location: ../PostTask1.php");
+        header("Location: ../Task2info.php");
     } else {
         echo "<script>
         alert('Error!! Could not Execute!!');

@@ -10,7 +10,7 @@
     if (mysqli_query($conn, $query)) {
         unset($arr);
         $_SESSION["task4"]="filled";
-        header("Location: ../PostTask4.php");
+        header("Location: end.php");
     } else {
         echo "<script>
         alert('Error!! Could not Execute!!');

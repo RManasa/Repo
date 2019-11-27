@@ -17,8 +17,9 @@ if (mysqli_query($conn, $query)) {
     session_destroy();
     header("Location: ../End.html");
 } else {
+    session_destroy();
     echo "<script>
-    alert('Error!! Could not Execute!!');
-    window.location.href='../PostTask4.php';
+    alert('Error!! Could not record time..');
+    window.location.href='../End.html';
     </script>";
 }

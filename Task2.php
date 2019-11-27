@@ -2,7 +2,7 @@
     session_start();
     if(isset($_SESSION["task2"])){
         if($_SESSION["task2"]=="filled"){
-          header("Location: PostTask2.php");      
+          header("Location: Task3info.php");      
           }
     }
 ?>
@@ -14,7 +14,7 @@
 <body>
     <!-- <form action="phpFiles/task2.php" method="post"> -->
 <h1> Task 2 </h1>
-<p>Imagine a hypothetical scenario where you are selected as one of the main leaders of a student organization that helps in spreading awareness on plastics and recycling. Academicians and policymakers in your community have recognized your efforts, and they have asked you to come up with a response by ranking the answers present on the Q&A provided below.</p>
+<p>Imagine a hypothetical scenario where you are selected as one of the main leaders of a student organization that helps in spreading awareness on plastics and recycling. Academicians and policymakers in your community have recognized your efforts, and they have asked you to come up with a response by ranking the answers present on the question-answer pair provided below.</p>
 
 <p><b>Question 1: Why did dinosaurs become extinct? A consensus of scientific opinion says it was because of a metorite impact 65 million years ago. Seems to me SOME would have survived. </b></p>
 <p>Answer 1: Some did. 65 million years is a long time to evolve into the lizards and birds we see today.
@@ -36,6 +36,8 @@
         });
     $("#btn").click(function(){
         var answer = ($("#text").val());
+        answer = answer.replace(/,/g, '');
+        answer = answer.replace(/&/g, ' and ');
         var end = new Date();
         var time = end- start;
         var arrOfAnswerAndTime = new Array();

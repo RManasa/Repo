@@ -19,7 +19,7 @@
 <div class="wrap">
   <h3 class="likert-header">For each questions given below, please  select a response on a five-point scale ranging from strongly agree to strongly disagree.</h3>
   <form action="phpFiles/task1info.php" method="POST">
-    <label class="statement">1a) I feel this task is difficult.</label>
+    <label class="statement">I feel this task is difficult.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1a" value="strong_agree" required>
@@ -42,7 +42,7 @@
         <label>Strongly disagree</label>
       </li>
     </ul>
-    <label class="statement">1b) I feel this task is complex.</label>
+    <label class="statement">I feel this task is complex.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1b" value="strong_agree" required>
@@ -67,7 +67,7 @@
     </ul>
     
     
-    <label class="statement">1c) I am knowledgeable in this topic.</label>
+    <label class="statement">I am knowledgeable in this topic.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1c" value="strong_agree" required>
@@ -92,7 +92,7 @@
     </ul>
     
     
-    <label class="statement">1d) I am interested in this topic.</label>
+    <label class="statement">I am interested in this topic.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1d" value="strong_agree" required>
@@ -117,7 +117,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">1e) I feel this task is important to me.</label>
+      <label class="statement"> I feel this task is important to me.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1e" value="strong_agree" required>
@@ -142,7 +142,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">1f) I feel motivated to work on this task.</label>
+      <label class="statement">I feel motivated to work on this task.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1f" value="strong_agree" required>

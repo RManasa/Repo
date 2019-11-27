@@ -19,7 +19,7 @@
 <div class="wrap">
   <h3 class="likert-header">Skin pigmentation has been found among several individuals. This can occur due to different reasons and some of the reasons have been on the content present online. Before performing the task, answer the following questions.</h3>
   <form action="phpFiles/task4info.php" method="post">
-    <label class="statement">2a) I feel this task is difficult.</label>
+    <label class="statement">I feel this task is difficult.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1a" value="strong_agree" required>
@@ -42,7 +42,7 @@
         <label>Strongly disagree</label>
       </li>
     </ul>
-    <label class="statement">2b) I feel this task is complex.</label>
+    <label class="statement">I feel this task is complex.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1b" value="strong_agree" required>
@@ -67,7 +67,7 @@
     </ul>
     
     
-    <label class="statement">2c) I am knowledgeable in this topic</label>
+    <label class="statement">I am knowledgeable in this topic</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1c" value="strong_agree" required>
@@ -91,7 +91,7 @@
       </li>
     </ul>
     
-    <label class="statement">2d) I am interested in this topic.</label>
+    <label class="statement">I am interested in this topic.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1d" value="strong_agree" required>
@@ -116,7 +116,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">2e) I feel this task is important to me.</label>
+      <label class="statement">I feel this task is important to me.</label>
       <ul class='likert'>
       <li>
         <input type="radio" name="1e" value="strong_agree" required>
@@ -141,7 +141,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">2f) I feel motivated to work on this task.</label>
+      <label class="statement">I feel motivated to work on this task.</label>
       <ul class='likert'>
       <li>
         <input type="radio" name="1f" value="strong_agree" required>

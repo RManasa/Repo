@@ -2,7 +2,7 @@
 session_start();
 if (isset($_SESSION["task3"])) {
   if ($_SESSION["task3"] == "filled") {
-    header("Location: PostTask3.php");
+    header("Location: Task4info.php");
   }
 }
 ?>

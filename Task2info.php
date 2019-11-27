@@ -13,13 +13,13 @@
 </head>
 <body>
 <h1> Task 2 </h1>
-<h2>As paleontologist Kenneth Lacovara mentions in his book “Dinosaurs are long-lasting champi-ons of resilience and persistence.  They reigned unchallenged on the land for the better part of 165 million years.” However, there are questionable facts about their extinction. Take help from the Q&A content present on this site, andconstructan answer which would best fit the argu-ment about why dinosaurs became extinct</h2>
+<h2>As paleontologist Kenneth Lacovara mentions in his book “Dinosaurs are long-lasting champions of resilience and persistence. They reigned unchallenged on the land for the better part of 165 million years.” However, there are questionable facts about their extinction. Take help from the question-answer pair present on this site, and construct an answer which would best fit the argument about why dinosaurs became extinct.</h2>
 <p></p>
 
 <div class="wrap">
   <h3 class="likert-header">Below are the questions that will be asked in the pre-task questionnaire.  For each question, participants will select their response on a five-point scale ranging from strongly disagree to strongly agree.</h3>
   <form action="phpFiles/task2info.php" method="post">
-    <label class="statement">2a) I feel this task is difficult.</label>
+    <label class="statement">I feel this task is difficult.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1a" value="strong_agree" required>
@@ -42,7 +42,7 @@
         <label>Strongly disagree</label>
       </li>
     </ul>
-    <label class="statement">2b) I feel this task is complex.</label>
+    <label class="statement">I feel this task is complex.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1b" value="strong_agree" required>
@@ -67,7 +67,7 @@
     </ul>
     
     
-    <label class="statement">2c) I am knowledgeable in this topic</label>
+    <label class="statement">I am knowledgeable in this topic</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1c" value="strong_agree" required>
@@ -92,7 +92,7 @@
     </ul>
     
     
-    <label class="statement">2d) I am interested in this topic.</label>
+    <label class="statement">I am interested in this topic.</label>
     <ul class='likert'>
       <li>
         <input type="radio" name="1d" value="strong_agree" required>
@@ -117,7 +117,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">2e) I feel this task is important to me.</label>
+      <label class="statement">I feel this task is important to me.</label>
       <ul class='likert'>
       <li>
         <input type="radio" name="1e" value="strong_agree" required>
@@ -142,7 +142,7 @@
     </ul>
     <div class="buttons">
     
-      <label class="statement">2f) I feel motivated to work on this task.</label>
+      <label class="statement">I feel motivated to work on this task.</label>
       <ul class='likert'>
       <li>
         <input type="radio" name="1f" value="strong_agree" required>

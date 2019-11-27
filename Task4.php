@@ -2,7 +2,7 @@
     session_start();
     if(isset($_SESSION["task4"])){
         if($_SESSION["task4"]=="filled"){
-          header("Location: PostTask4.php");      
+          header("Location: End.html");      
           }
     }
 ?>
@@ -14,7 +14,7 @@
 <body>
 
 <h1> Task 4 </h1>
-<p>Skin pigmentation has been found among several individuals.  This can occur due to differentreasons and some of the reasons have been described in the Q& A post.  Construct a response based on the content present online.</p>
+<p>Skin pigmentation has been found among several individuals.  This can occur due to differentreasons and some of the reasons have been described in the Question-Answer pair.  Construct a response based on the content present online. Note: Please do not copy/paste any content present on this page.</p>
 
 <p><b>Question 1:What are the different causes of pigmentation of the skin? </b></p>
 <p>Answer 1: Multiple factors cause skin pigmentation. The prime factor is sun exposure. It can also be caused due to hormonal imbalance due to pregnancy, oral contraceptives or hormone replacement therapy. Post-inflammatory hyperpigmentation or heredity can also be responsible for the skin pigmentation.
@@ -38,6 +38,8 @@
     });
     $("#btn").click(function(){
         var answer = ($("#text").val());
+        answer = answer.replace(/,/g, '');
+        answer = answer.replace(/&/g, ' and ');
         var end = new Date();
         var time = end- start;
         var arrOfAnswerAndTime = new Array();

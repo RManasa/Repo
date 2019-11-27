@@ -2,7 +2,7 @@
 session_start();
 if (isset($_SESSION["task1"])) {
   if ($_SESSION["task1"] == "filled") {
-    header("Location: PostTask1.php");
+    header("Location: Task2info.php");
   }
 }
 ?>
@@ -14,7 +14,7 @@ if (isset($_SESSION["task1"])) {
 </head>
 
 <body>
-  <p>Imagine a hypothetical scenario where you are selected as one of the main leaders of a student organization that helps in spreading awareness on plastics and recycling. Academicians and policymakers in your community have recognized your efforts, and they have asked you to come up with a response by ranking the answers present in the Q & A pair.
+  <p>Imagine a hypothetical scenario where you are selected as one of the main leaders of a student organization that helps in spreading awareness on plastics and recycling. Academicians and policymakers in your community have recognized your efforts, and they have asked you to come up with a response by ranking the answers present in the question-answer pair provided below.
     <br>
     Also, presented are the four answers for the question, rank/sort the answer choices and then click submit when you are done.</p>
   <h1>Task 1</h1>
